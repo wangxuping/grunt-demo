@@ -1,0 +1,47 @@
+/** 首页头部----------------------------- */
+.header{height: 42px;width: 100%; min-width: 1000px; margin: 0 auto;background: #393a3e; text-align: center;}
+.header li{line-height: 42px;padding: 0 50px;font-size: 16px;}
+.header li a{line-height: 42px;color: #fff;}
+
+/** 首页主体内容----------------------------- */
+.index-main{width: 1000px;margin: 0 auto;min-height: 600px;text-align: center;padding-top: 30px; }
+
+/** 联系我们主体内容----------------------------- */
+.contact-main{width: 1000px;margin: 0 auto;height: 600px;text-align: center;padding-top: 30px;}
+
+/** 公司介绍主体内容----------------------------- */
+.companyMain{width: 1000px;margin: 0 auto;}
+
+/** 公司介绍----------------------------- */
+.company-left{width: 130px;float: left;padding-top: 10px;}
+.company-left li{height: 40px;line-height: 40px;}
+.company-left li a{color: #000;display: block;text-align: center;}
+.company-right{width: 850px;float: right;}
+.company-detail{padding: 30px;padding-top: 10px;}
+.company-detail h1{height: 40px;line-height: 40px;font-size: 24px;text-align: center;}
+.company-detail .content{text-align: left;}
+
+/** 公司案例----------------------------- */
+.case-left{width: 130px;float: left;padding-top: 10px;}
+.case-left li a{color: #000;display: block;text-align: center;}
+.case-right{width: 850px;float: right;}
+.case-title{height: 40px;line-height: 40px;font-size: 16px;text-align: center;}
+.case-group{border-bottom: 1px solid #ddd;padding: 15px 0;padding-left: 100px;position: relative;}
+.case-img{position: absolute;top: 15px;left: 0;width: 80px;height: 80px;}
+
+.case-img img{width: 80px;height: 80px;}
+.case-item{height: 80px;text-align: left;}
+.case-item h1{height: 30px;line-height: 30px;font-size: 14px;padding: 0;margin: 0;}
+.case-item p{line-height: 30px;font-size: 12px;}
+.case-back{text-align: right;float: right;padding: 20px 0;}
+
+
+/*** 首页底部-----------------------------*/
+
+.footer {width: 100%; background: #393a3e; height: 80px; }
+.footer p{ color: #fff; line-height: 80px; text-align: center; }
+
+
+
+.header ul{ font-size: 0px; letter-spacing: -5px; }
+.header li{ vertical-align: top; letter-spacing: normal; display: inline-block;}

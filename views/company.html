@@ -1,0 +1,9 @@
+<div class="companyMain" ng-conntroller="companyCtrl">
+    <div class="company-left">
+        <ul>
+            <li ng-repeat="str in companys"><a ui-sref="company.detail({id: str.id})">{{str.companytitle}}</a></li>
+        </ul>
+    </div>
+    <div class="company-right" ui-view="companyRight" ng-conntroller="companyDetailCtrlFirst"></div>
+</div>
+
